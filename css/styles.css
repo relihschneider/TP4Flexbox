@@ -1,0 +1,146 @@
+nav  {
+            display: flex;
+            flex-direction: row;
+            top: 0px;
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            background:black;
+            border-bottom: 1px solid grey;
+            justify-content: space-between;
+            align-items: center;
+}
+
+a {
+  text-decoration:none
+}
+
+nav .links  {
+  display:flex;
+  color:white;
+  font-size: 30px;
+  font-family: 'arial', cursive;
+  align-items: center;
+  justify-content: space-between;
+  order: 1;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.links a {
+      margin: 0px 20px;
+}
+
+nav .logo {
+
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  order: 2;
+
+}
+
+body  {
+  margin-top: 60px;/* para el cuerpo comienze debajo de la barra superior*/
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+section {
+      display: flex;
+      flex-direction: row;
+
+    }
+
+.columnaizquierda {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  order: 1;
+  flex: 10;
+
+  }
+
+
+.imagenes {
+      display: flex;
+      flex-direction:row;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      order: 1;
+      max-width: 600px;
+    }
+
+
+.boton {
+         display: flex;
+         justify-content: center;
+         order: 2;
+         background-color: blue;
+         transition:all 0.5s;
+         border-radius: 15px;
+         font-size: 20px;
+         width: 100px;
+         text-align: center;
+}
+
+.boton:hover
+        {
+          background-color: cyan;
+          transform: scale(1.2);
+        }
+
+
+
+.columnaderecha {
+      display: flex;
+      flex-direction: column;
+      order: 2;
+      flex:4;
+      margin: 40px;
+      margin-right: 100px;
+    }
+
+.columnaderecha h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto
+{
+  display: flex;
+  flex-direction: row-reverse;
+      margin: 40px;
+}
+
+
+.bottom{
+
+  display: flex;
+  flex-direction: row;
+  color:grey;
+  font-size: 30px;
+      margin: 100px;
+}
+
+.bottom p{
+        flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+
+}
+
+
+
+
+footer {
+    text-align: center;
+}
